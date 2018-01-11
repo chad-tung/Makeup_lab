@@ -1,0 +1,32 @@
+.product {
+  display: flex;
+  align-items: center;
+}
+
+.product-attributes {
+  min-width: 300px;
+  max-width: 300px;
+}
+
+.product-description {
+  min-width: 400px;
+  max-width: 400px;
+}
+
+.product-image {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+.colours {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.colour-spot {
+  min-height: 20px;
+  min-width: 20px;
+  border-radius: 50%;
+  margin: 0px 3px 3px 3px
+
+}
